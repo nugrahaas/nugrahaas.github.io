@@ -1,0 +1,122 @@
+/* Gaya umum */
+
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1,
+h2 {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  color: #333;
+}
+
+.flex-hasil {
+  flex-direction: row;
+}
+
+/* Tampilan responsif */
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+}
+
+/* Gaya tematik Modern Colorful dengan Flexbox */
+
+body {
+  background-color: #f1f1f1;
+}
+
+h1 {
+  color: #555;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-item {
+  background-color: #3498db;
+  color: #fff;
+  padding: 20px;
+  margin: 10px;
+  flex: 1 1 300px;
+  max-width: 300px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+}
+
+.flex-item:hover {
+  transform: scale(1.05);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+}
+
+img:hover {
+  transform: scale(1.05);
+}
+
+a {
+  display: inline-block;
+  background-color: #3498db;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+  margin-right: 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+a:hover {
+  background-color: #2980b9;
+}
+
+/* Font menarik dan modern */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2 {
+  font-family: "Poppins", sans-serif;
+}
+
+.flex-item,
+a {
+  font-family: "Poppins", sans-serif;
+}
